@@ -1,0 +1,160 @@
+body {
+  background-color: #fff;
+  font-family: Helvetica, Arial;
+  font-size: 14px;
+}
+
+a img {
+  border: none;
+}
+
+a {
+  color: #0000FF;
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+#container {
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px 40px;
+  margin-top:-210px;
+  
+}
+
+#flash_notice, #flash_error, #flash_alert {
+  padding: 5px 8px;
+  margin: 10px 0;
+}
+
+#flash_notice {
+  background-color: #CFC;
+  border: solid 1px #6C6;
+}
+
+#flash_error, #flash_alert {
+  background-color: #FCC;
+  border: solid 1px #C66;
+}
+
+.fieldWithErrors {
+  display: inline;
+}
+
+.error_messages {
+  width: 400px;
+  border: 2px solid #CF0000;
+  padding: 0px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  font-size: 12px;
+}
+
+.error_messages h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin: 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+.error_messages p {
+  margin: 8px 10px;
+}
+
+.error_messages ul {
+  margin: 0;
+}
+
+#fondotop{background-image: url("../images/fondos/top.jpg"); height:279px; width:100%;  z-index:2;}
+
+#contenido{ padding-top:20px; height:1080px;}
+
+#menu{background-image: url("../images/fondos/menu.jpg"); height:38px; width:925px;}
+
+#menu-nav li{
+  
+  list-style: none;
+  color: #fff;
+  float: left;
+  margin-right:75px;
+  margin-top:12px;
+	
+}
+
+#barra-der{
+  
+  width:630px;
+  height:1080px;
+  
+}
+
+#barra-izq{
+  
+  width:286px;
+  margin-left:645px;
+  margin-top: -1080px;
+}
+
+#slider-index{
+  width:635px;
+  height:410px;
+  background-color:#000;
+  
+}
+
+#caballos-index{
+  margin-top:10px;
+  width:635px;
+  height:660px;
+  border: 1px solid #24201d;
+  -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+  
+}
+
+#videos-index{
+  width:280px;
+  height:515px;
+  
+  
+}
+
+.videoIndex{
+  width:286px;
+  height:120px;
+  margin-bottom:8px;
+  border: 1px solid #24201d;
+  -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+  
+}
+
+#eventos-index{
+  width:286px;
+  margin-top:5px;
+  height:435px;
+  border: 1px solid #24201d;
+  -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+  
+}
+
+#contacto-index{
+  width:286px;
+  margin-top:8px;
+  height:115px;
+  border: 1px solid #24201d;
+  -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+  
+}
+
+#footer{ background-color:#24201d; height:55px; width:100%;}
